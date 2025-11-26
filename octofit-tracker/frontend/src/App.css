@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%) !important;
+  box-shadow: 0 2px 8px rgba(30,60,114,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #ffd700 !important;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  border: none;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  background: #f7fafc;
+}
+
+table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 2px solid #2a5298;
+}
+
+thead {
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  color: #fff;
+}
+
+th, td {
+  vertical-align: middle !important;
+  color: #2a5298;
+}
+
+.btn {
+  margin-right: 0.5rem;
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn:hover, .btn:focus {
+  background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+  color: #ffd700;
+}
+
+h2, h3, h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1e3c72;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+a, .nav-link {
+  color: #2a5298;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .nav-link:hover {
+  color: #ffd700;
+}
+
+.modal-content {
+  border-radius: 1rem;
+  background: #f7fafc;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
